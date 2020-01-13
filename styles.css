@@ -64,16 +64,17 @@ body {
 
 
 .article-links{
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
+
 
 
 }
 .article {
-  height: 351px;
-  margin: 0px 3px 0px 3px;
+  /* height: 351px; */
+
   background-color: blue;
 
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
 }
