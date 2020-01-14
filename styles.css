@@ -27,11 +27,10 @@ body {
 .social-media-header {
   position: relative;
   width: 100%;
-  height: 100px;
-  margin
+  height: 67px;
 }
 
-.subscribe{
+.subscribe {
   margin-top: 25px;
   color: #FFF;
 }
@@ -46,46 +45,61 @@ body {
   left: 89px;
   display: flex;
   flex-direction: row;
-  margin-top: 10px;
+  margin-top: 8px;
 
-  font-size: 50px;
+  font-size: 20px;
 
 }
 
 .social-icons i {
+  width: 17%;
   margin-left: 5px;
+  text-align: center;
+  line-height: 35px;
+  padding: 7px 5px 7px 5px;
+
+}
+.facebook {
+  background-color: #475993;
+  color: #7783AE;
 }
 
+.wifi {
+  background-color: #C49045;
+  color: #CFAE73;
+}
+.twitter {
+  background-color: #708DC2;
+  color: #94A8D0;
+}
+.youtube {
+  background-color: #A54134;
+  color: #B86E63;
+}
+
+
+
 /******************************************************** navigation buttons */
+.navigation {
+  margin-bottom: 8px;
+}
 
 .navigation-button{
   display: flex;
   justify-content: space-around;
-
-
-
-
-
-
-
 }
 
 .navigation-button button{
-  width: 90%;
-
+  width: 98%;
   display: flex;
-  /* flex-wrap: nowrap; */
-  background-color: #A63634
-
-
-
-
+  background-color: #A63634;
+  border: none;
 }
 
 .navigation-button span {
     width: 100%;
     color: #FFF;
-
+    padding: 0px 3px 0px 3px;
 }
 
 
@@ -102,17 +116,21 @@ body {
 
 
 .article-links{
-display: flex;
-flex-direction: row;
+  width: 80%;
+  margin: auto;
 
+  display: flex;
+  flex-wrap: nowrap;
+  
 
 
 }
 .article {
   margin-left: 2px;
+  padding: 25px;
+
+
+
 
   background-color: #FBFBFB;
-
-  /* display: flex;
-  flex-direction: row; */
 }
