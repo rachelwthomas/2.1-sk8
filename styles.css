@@ -86,15 +86,43 @@ body {
 
 /******************************************************** navigation buttons */
 .navigation {
+
+  text-align: center;
   margin-bottom: 8px;
 }
 
-.navigation-button{
-  /* display: flex;
-  justify-content: space-around; */
+a:hover {
+  text-decoration: none;
 }
 
-.navigation-button button{
+.navigation-button {
+
+  background-color: #A63634;
+
+}
+
+.navigation a {
+  color: #FFF;
+}
+
+.navigation-button span {
+  color: #FFF;
+  font-size: 15px;
+  margin: 0px 15px 0px 15px;
+}
+
+.navigation-button:not(:last-child){
+  margin-right: 8px;
+}
+
+/* .navigation-button{ */
+  /* display: flex;
+  justify-content: space-around; */
+
+  /* text-align: center;
+}
+
+.navigation-button a {
   width: 98%;
   display: flex;
   background-color: #A63634;
@@ -105,7 +133,7 @@ body {
     width: 100%;
     color: #FFF;
     padding: 0px 3px 0px 3px;
-}
+} */
 
 /* margin-right:(not(:last-child)); on spans to create margin */
 
@@ -141,7 +169,7 @@ body {
 
 
 
- .article-links{
+.article-links{
   margin: 10px 0 10px 0;
 }
 .article {
