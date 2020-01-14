@@ -228,8 +228,29 @@ a:hover {
 
 
 /************************************************************ skateboarders */
-.skateboarder-names {
+.skateboarders {
+  position: relative;
+}
+
+.skateboarders .skateboarder-names span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.skateboarder-names img{
   border: solid 1px #FFF;
+}
+
+.skateboarders .tommy img{
+  object-fit: fill;
+
+}
+
+ .skateboarders .steve img {
+   object-fit: none
+
+  border: solid 2px red;
 }
 
 
