@@ -1,185 +1,198 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/6888ed7247.js" crossorigin="anonymous"></script>
-    <title>sk8</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/6888ed7247.js" crossorigin="anonymous"></script>
+  <title>sk8</title>
 
 
-<div class="container-fluid webpage">
- <div class="webpage-content">
+</head>
 
-  <header>
+<body>
 
-    <div class="social-media-header row no-gutters">
+<!-- use margin)not last child or first child to avoid adding margin on the end of icon -->
+  <div class="container-fluid webpage">
+    <div class="webpage-content">
 
-    <div class="header col-12">
+      <header>
 
-      <div class="row no-gutters">
-        <div class="col-6"></div>
+        <div class="social-media-header row no-gutters">
 
-        <div class="subscribe col-2">SUBSCRIBE<a href="#"><i class="fas fa-circle"></i></a></div>
+          <div class="header col-12">
 
-        <div class="social-icons col-4">
-          <i class="fab fa-facebook-f facebook"></i>
-          <i class="fas fa-wifi wifi"></i>
-          <i class="fab fa-twitter twitter"></i>
-          <i class="fab fa-youtube youtube"></i>
+            <div class="row no-gutters">
+
+              <div class="subscribe offset-6 col-md-2">SUBSCRIBE<a href="#"><i class="fas fa-circle"></i></a></div>
+
+<!-- set wifi to rss feed -->
+              <div class="social-icons col-4">
+                <i class="fab fa-facebook-f facebook"></i>
+                <i class="fas fa-rss wifi"></i>
+                <i class="fab fa-twitter twitter"></i>
+                <i class="fab fa-youtube youtube"></i>
+              </div>
+            </div>
+
+          </div>
+
         </div>
+
+
+
+
+
+
+
+        <!-- change these to a tags, give href that will link to each section -->
+        <!-- put words into spans and put &ndash; on either side -->
+
+        <div class="navigation row no-gutters">
+          <div class="navigation-button col-12 col-md"><button>&ndash;<span>SK8T NEWS</span>&ndash;</button></div>
+          <div class="navigation-button col-12 col-md"><button>&ndash;<span>SKATEBOARDERS</span>&ndash;</button></div>
+          <div class="navigation-button col-12 col-md"><button>&ndash;<span>BOARD DESIGN</span>&ndash;</button></div>
+          <div class="navigation-button col-12 col-md"><button>&ndash;<span>CONTACT US</span>&ndash;</button></div>
         </div>
 
+      </header>
+
+      <section>
+        <div id="carousel" class="row no-gutters">
+          <div class="grid"><img src="./images/grid.png" alt=""></div>
+          <div class="logo"><img src="./images/peralta-logo.png" alt=""></div>
+        </div>
+      </section>
+
+      <section>
+
+        <div class="article-links row">
+          <!-- col-12 col-md -->
+          <!-- put in article tags -->
+          <div class="article col-md">
+            <div class="article-heading">Tony Hawk Foundation Raises Big Money
+              At Celeb Fundraiser</div>
+            <time datetime="">October 10, 2013</time>
+            <div class="article-body">
+              It was just over 90 degrees in Los Angeles,
+              but that didn't stop the throngs from coming out to
+              celebrate the 10th Annual Tony Hawk's Stand Up for Skateparks benefit
+              Presented by SLS Hotel & Casino Las Vegas on Saturday
+              at the Green Acres Estate in Beverly Hills.
+            </div>
+              <div class="read-more-button"><button>[<span>READ MORE</span>]</button></div>
+
+          </div>
+          <div class="article col-md">
+            <div class="article-heading">Rodney Mullen: Pop an ollie and innovate!
+              (TED Talk)
+            </div>
+            <time datetime="">March 10, 2013</time>
+              <div class="article-body">
+                The last Rodney Mullen, the godfather
+                of street skating, wanted were competitive victories. In this exuberant talk he shares
+                his love of the open skateboarding community and how
+                the unique environments it play in drive the creation of new
+                tricks-fostering...
+              </div>
+              <div class="read-more-button"><button>[<span>READ MORE</span>]</button></div>
+
+          </div>
+          <div class="article col-md">
+            <div class="article-heading">Ray Barbee Talks 'Ban This'</div>
+            <time datetime="">Oct 4, 2013</time>
+            <div class="article-body">
+              Since filming is in full swing for the Vans
+              video Adventures With Chris has taken the opportunity to sit some of the team down to look
+              behind the skaing of some of their earlier parts. Today we sit down Ray Barbee,
+              one of the smoothest guys to ever step on a skateboard and Chris' childhood idol...
+            </div>
+            <div class="read-more-button"><button>[<span>READ MORE</span>]</button></div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ********************************************************skateboarders -->
+  <!-- add anchor tags in between div and img or make divs into anchor tags -->
+
+      <section>
+        <div class="skateboarders row no-gutters">
+          <div class="col-md-8">
+            <div class="row no-gutters">
+              <div class="lance skateboarder-names col-6"><img src="./images/sk8er-4.png" alt=""><span>LANCE</span></div>
+              <div class="rodney skateboarder-names col-6"><img src="./images/sk8er-3.png" alt=""><span>NAME</span></div>
+              <div class="w-100"></div>
+              <div class="steve skateboarder-names col-12"><img src="./images/sk8er-1.png" alt=""><span>NAME</span></div>
+            </div>
+          </div>
+          <div class="tommy skateboarder-names col-md-4"><img src="./images/sk8er-2.png" alt=""><span>NAME</span></div>
+
+
+        </div>
+      </section>
+
+      <!-- *******************************************************skateboard images -->
+      <section>
+        <div class="skateboards row no-gutters">
+          <div class="skateboard-image col"><img src="./images/sk8-1.png" alt=""></div>
+          <div class="skateboard-image col"><img src="./images/sk8-2.png" alt=""></div>
+          <div class="skateboard-image col"><img src="./images/sk8-3.png" alt=""></div>
+          <div class="skateboard-image col"><img src="./images/sk8-4.png" alt=""></div>
+          <div class="skateboard-image col"><img src="./images/sk8-5.png" alt=""></div>
+          <div class="skateboard-image col"><img src="./images/sk8-6.png" alt=""></div>
+          <div class="skateboard-image col"><img src="./images/sk8-7.png" alt=""></div>
+          <div class="skateboard-image col"><img src="./images/sk8-8.png" alt=""></div>
+          <div class="skateboard-image col"><img src="./images/sk8-9.png" alt=""></div>
+          <div class="skateboard-image col"><img src="./images/sk8-10.png" alt=""></div>
+        </div>
+      </section>
+
+      <!-- ********************************************************************form -->
+      <div class="form-container row no-gutters">
+        <div class="form-left col-6">
+          <div class="form-heading">
+            Contact Us for More Information
+          </div>
+          <div class="form-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error explicabo aspernatur,
+            fuga corrupti accusantium deleniti id pariatur maiores temporibus!
+            Omnis vitae, reprehenderit sapiente non cupiditate quaerat, quod odio excepturi
+            doloribus.
+          </div>
+          <div class="form-social">
+            <a href="#"> <i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fas fa-wifi"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="form-right col-6">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputPassword1"></label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="NAME">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1"></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="EMAIL">
+
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1"></label>
+              <input type="text-area" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="YOUR MESSAGE">
+
+            </div>
+            <button type="submit" class="btn submit-button">Submit</button>
+          </form>
+        </div>
       </div>
 
     </div>
-
-
-
-
-
-
-
-
-
-  <div class="navigation row no-gutters">
-    <div class="navigation-button col-3"><button><span>SK8T NEWS</span></button></div>
-    <div class="navigation-button col-3"><button><span>SKATEBOARDERS</span></button></div>
-    <div class="navigation-button col-3"><button><span>BOARD DESIGN</span></button></div>
-    <div class="navigation-button col-3"><button><span>CONTACT US</span></button></div>
   </div>
 
-  </header>
+</body>
 
-  <section>
-    <div class="banner-picture"></div>
-  </section>
-
-  <section>
-
-    <div class="article-links row no-gutters">
-      <div class="article col-4">
-        <div class="article-heading">Tony Hawk Foundation Raises Big Money
-          At Celeb Fundraiser</div>
-        <div class="article-date">October 10, 2013</div>
-        <div class="article-body">
-          It was just over 90 degrees in Los Angeles,
-          but that didn't stop the throngs from coming out to
-          celebrate the 10th Annual Tony Hawk's Stand Up for Skateparks benefit
-          Presented by SLS Hotel & Casino Las Vegas on Saturday
-          at the Green Acres Estate in Beverly Hills.
-        </div>
-        <div class="button">READ MORE</div>
-
-      </div>
-      <div class="article col-4">
-        <div class="article-heading">Rodney Mullen: Pop an ollie and innovate!
-          (TED Talk)
-        </div>
-        <div class="article-date">March 10, 2013</div>
-        <div class="article-body">
-          The last Rodney Mullen, the godfather
-          of street skating, wanted were competitive victories. In this exuberant talk he shares
-          his love of the open skateboarding community and how
-          the unique environments it play in drive the creation of new
-          tricks-fostering...
-        </div>
-        <div class="button">READ MORE</div>
-
-      </div>
-      <div class="article col-4">
-        <div class="article-heading">Ray Barbee Talks 'Ban This'</div>
-        <div class="article-date">Oct 4, 2013</div>
-        <div class="article-body">
-          Since filming is in full swing for the Vans
-          video Adventures With Chris has taken the opportunity to sit some of the team down to look
-          behind the skaing of some of their earlier parts. Today we sit down Ray Barbee,
-          one of the smoothest guys to ever step on a skateboard and Chris' childhood idol...
-        </div>
-        <div class="button">READ MORE</div>
-
-      </div>
-    </div>
-  </section>
-
-
-<!-- ********************************************************skateboarders -->
-  <section>
-    <div class="skateboarders row no-gutters">
-      <div class="col-8">
-        <div class="row no-gutters">
-          <div class="lance skateboarder-names col-6"><img src="./images/sk8er-4.png" alt=""></div>
-          <div class="rodney skateboarder-names col-6"><img src="./images/sk8er-3.png" alt=""></div>
-          <div class="steve skateboarder-names col-12"><img src="./images/sk8er-1.png" alt=""></div>
-        </div>
-
-      </div>
-      <div class="tommy skateboarder-names col-4"><img src="./images/sk8er-2.png" alt=""></div>
-
-
-    </div>
-  </section>
-
-<!-- *******************************************************skateboard images -->
-<section>
-  <div class="skateboards row no-gutters">
-    <div class="col"><img src="./images/sk8-1.png" alt=""></div>
-    <div class="col"><img src="./images/sk8-2.png" alt=""></div>
-    <div class="col"><img src="./images/sk8-3.png" alt=""></div>
-    <div class="col"><img src="./images/sk8-4.png" alt=""></div>
-    <div class="col"><img src="./images/sk8-5.png" alt=""></div>
-    <div class="col"><img src="./images/sk8-6.png" alt=""></div>
-    <div class="col"><img src="./images/sk8-7.png" alt=""></div>
-    <div class="col"><img src="./images/sk8-8.png" alt=""></div>
-    <div class="col"><img src="./images/sk8-9.png" alt=""></div>
-    <div class="col"><img src="./images/sk8-10.png" alt=""></div>
-  </div>
-</section>
-
-<!-- ********************************************************************form -->
-   <div class="form-container row no-gutters">
-     <div class="form-left col-6">
-       <div class="form-heading">
-         Contact Us for More Information
-       </div>
-       <div class="form-body">
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error explicabo aspernatur,
-          fuga corrupti accusantium deleniti id pariatur maiores temporibus!
-          Omnis vitae, reprehenderit sapiente non cupiditate quaerat, quod odio excepturi
-          doloribus.
-       </div>
-       <div class="form-social">
-         <a href="#"> <i class="fab fa-facebook-f"></i></a>
-         <a href="#"><i class="fas fa-wifi"></i></a>
-         <a href="#"><i class="fab fa-twitter"></i></a>
-         <a href="#"><i class="fab fa-youtube"></i></a>
-       </div>
-     </div>
-    <div class="form-right col-6">
-       <form>
-      <div class="form-group">
-        <label for="exampleInputPassword1"></label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="NAME">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail1"></label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="EMAIL">
-
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail1"></label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="YOUR MESSAGE">
-
-      </div>
-        <button type="submit" class="btn submit-button">Submit</button>
-      </form>
-    </div>
-   </div>
-
-  </div>
-  </div>
-
-  </body>
 </html>
