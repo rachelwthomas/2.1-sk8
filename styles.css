@@ -21,7 +21,7 @@ body {
 
 .webpage-content{
   margin: 0 18% 0 18%;
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
 
 .social-media-header {
@@ -109,28 +109,78 @@ body {
 
 .banner-picture {
   height: 335px;
-  border: solid 1px black;
+
 }
 
 
 
 
 .article-links{
-  width: 80%;
-  margin: auto;
+  width: 90%;
+  margin: 0 auto;
 
   display: flex;
+  justify-content: space-between;
   flex-wrap: nowrap;
-  
+
+
 
 
 }
 .article {
-  margin-left: 2px;
-  padding: 25px;
 
-
-
+  /* margin-left: 11px; */
 
   background-color: #FBFBFB;
+}
+
+
+/************************************************************ skateboarders */
+.skateboarder-names {
+  border: solid 1px #FFF;
+}
+
+
+
+/******************************************************** skateboard banner */
+.skateboards {
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+  background-color: #FFF;
+  height: 300px;
+}
+
+
+.skateboards img{
+  position:absolute;
+  transform: rotate(90deg);
+  top: 119px;
+  right: -71px;
+  display: flex;
+  flex-direction: row;
+
+  height: 66px;
+  width: 250px;
+}
+
+/**********************************************************************form */
+
+.form-container {
+  margin-top: 10px;
+  background-color: #FFF;
+  padding: 30px;
+}
+
+/* .form-left , .form-right {
+  padding: 10px;
+
+} */
+
+.submit-button {
+
+
+  background-color: #A63634;
+  color: #FFF;
+  border-radius: 0%;
 }
