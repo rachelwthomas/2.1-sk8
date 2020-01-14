@@ -236,21 +236,40 @@ a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
+  color: white;
 }
 
-.skateboarder-names img{
-  border: solid 1px #FFF;
+
+.skateboarder-names {
+  border: solid 4px #FFF;
+  word-wrap: break-word;
 }
 
 .skateboarders .tommy img{
-  object-fit: fill;
+  height: 495px;
 
 }
 
- .skateboarders .steve img {
-   object-fit: none
 
-  border: solid 2px red;
+
+
+
+.skateboarders .steve {
+  overflow: hidden;
+  height: 301px;
+  border: solid 4px #fff;
+  /* margin-top: 5px; */
+}
+ .skateboarders .steve img {
+
+
+
+   object-fit: fill;
+   /* object-position: 50% 50%; */
+   object-position: 0 -px;
+   padding-bottom: 10px;
+
+
 }
 
 
