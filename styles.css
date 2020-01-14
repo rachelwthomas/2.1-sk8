@@ -33,6 +33,13 @@ body {
 
 .subscribe{
   margin-top: 25px;
+  color: #FFF;
+}
+
+.subscribe i {
+  color: #FFF;
+  font-size: 6px;
+  margin-left: 10px;
 }
 
 .social-icons {
@@ -49,11 +56,42 @@ body {
   margin-left: 5px;
 }
 
-
+/******************************************************** navigation buttons */
 
 .navigation-button{
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+
+
+
+
+
+
+
 }
+
+.navigation-button button{
+  width: 90%;
+
+  display: flex;
+  /* flex-wrap: nowrap; */
+  background-color: #A63634
+
+
+
+
+}
+
+.navigation-button span {
+    width: 100%;
+    color: #FFF;
+
+}
+
+
+
+
+
 
 .banner-picture {
   height: 335px;
@@ -71,9 +109,9 @@ flex-direction: row;
 
 }
 .article {
-  /* height: 351px; */
+  margin-left: 2px;
 
-  background-color: blue;
+  background-color: #FBFBFB;
 
   /* display: flex;
   flex-direction: row; */
