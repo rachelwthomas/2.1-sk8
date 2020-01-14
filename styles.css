@@ -27,23 +27,29 @@ body {
 
 
 
-
-
 .social-media-header {
   position: relative;
   width: 100%;
   height: 67px;
 }
-
+/************************************************************ subscribe a tag */
 .subscribe {
   margin-top: 25px;
   color: #FFF;
 }
 
-.subscribe i {
+.subscribe  a {
   color: #FFF;
-  font-size: 6px;
+  font-size: 16px;
   margin-left: 10px;
+  margin-right: 4px;
+}
+
+.subscribe a i {
+  font-size: 5px;
+  margin-left: 8px;
+  vertical-align: middle;
+
 }
 
 .social-icons {
