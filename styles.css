@@ -36,6 +36,8 @@ body {
 .subscribe {
   margin-top: 25px;
   color: #FFF;
+  border-right: dotted 4px #FFF;
+  border-spacing: 1px;
 }
 
 .subscribe  a {
@@ -46,11 +48,13 @@ body {
 }
 
 .subscribe a i {
-  font-size: 5px;
+  font-size: 4px;
   margin-left: 8px;
   vertical-align: middle;
 
 }
+
+
 
 .social-icons {
   left: 89px;
@@ -62,12 +66,14 @@ body {
 
 }
 
+
 .social-icons i {
   width: 17%;
   margin-left: 5px;
   text-align: center;
   line-height: 35px;
   padding: 7px 5px 7px 5px;
+  box-shadow: 0 3px 0px rgba(255, 255, 255, 0.35);
 
 }
 .facebook {
@@ -102,8 +108,9 @@ a:hover {
 }
 
 .navigation-button {
-
+  padding: 5px 0px;
   background-color: #A63634;
+  box-shadow: 0 3px 0px rgba(255, 255, 255, 0.35);
 
 }
 
@@ -121,27 +128,6 @@ a:hover {
   margin-right: 8px;
 }
 
-/* .navigation-button{ */
-  /* display: flex;
-  justify-content: space-around; */
-
-  /* text-align: center;
-}
-
-.navigation-button a {
-  width: 98%;
-  display: flex;
-  background-color: #A63634;
-  border: none;
-}
-
-.navigation-button span {
-    width: 100%;
-    color: #FFF;
-    padding: 0px 3px 0px 3px;
-} */
-
-/* margin-right:(not(:last-child)); on spans to create margin */
 
 
 
@@ -157,6 +143,8 @@ a:hover {
   overflow: hidden;
   background: url('./images/top-image.png') no-repeat 35% 25%;
   border: solid 5px #FFF;
+
+  box-shadow: 0 3px 0px rgba(255, 255, 255, 0.35);
 }
 
 #carousel > .grid {
@@ -182,6 +170,8 @@ a:hover {
   padding: 25px;
 
   background-color: #FBFBFB;
+
+  box-shadow: 0 3px 0px rgba(255, 255, 255, 0.35);
 }
 
 .article:not(:last-child){
@@ -243,6 +233,8 @@ a:hover {
 .skateboarder-names {
   border: solid 4px #FFF;
   word-wrap: break-word;
+
+  box-shadow: 0 3px 0px rgba(255, 255, 255, 0.35);
 }
 
 .skateboarders .tommy img{
@@ -300,6 +292,8 @@ a:hover {
   margin-top: 20px;
   background-color: #FFF;
   height: 300px;
+
+  box-shadow: 0 3px 0px rgba(255, 255, 255, 0.35);
 }
 
 
@@ -321,12 +315,28 @@ a:hover {
   margin-top: 10px;
   background-color: #FFF;
   padding: 30px;
+
+  box-shadow: 0 3px 0px rgba(255, 255, 255, 0.35);
 }
 
-/* .form-left , .form-right {
-  padding: 10px;
+.form-left .form-heading {
+  font-size: 22px;
+}
 
-} */
+.form-left .form-body {
+  margin: 10px 0px;
+  line-height: 32px;
+}
+
+.form-social {
+  font-size: 25px;
+  border-radius: 0px;
+}
+
+.form-social i {
+  color: #464646;
+
+}
 
 .submit-button {
 
